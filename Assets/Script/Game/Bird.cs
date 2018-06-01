@@ -7,7 +7,7 @@ public class Bird : MonoBehaviour, IGameObject {
 	private Rigidbody2D _rigidBody = null;
 
 	[SerializeField]
-	private float _jumpValue = 1.0f;
+	private float _jumpValue = 0.2f;
 
 	private Vector3 _startPosition = Vector3.zero;
 	private Quaternion _startRotation = Quaternion.identity;
