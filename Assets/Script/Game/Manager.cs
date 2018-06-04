@@ -30,6 +30,8 @@ public class Manager : Singleton<Manager> {
 
 	private bool _bCurrentBestScore = false;
 
+	private UnityAdsHelper _unityAdsHelper;
+
 	public float Speed {
 		get {
 			return _speed;
@@ -69,7 +71,7 @@ public class Manager : Singleton<Manager> {
 	private void Start() {
 		Init();
 		UIManager.Instance.ShowTitle ();
-
+		PlayerPrefs.SetInt("_lifeCount", 0);
 		_bestScore = PlayerPrefs.GetInt ("_bestScore");
 	}
 
@@ -86,9 +88,11 @@ public class Manager : Singleton<Manager> {
 	}
 
 	public void Replay() {
+		//Init();
+		//UIManager.Instance.ShowScore ();
+		//_bPlay = true;
 		Init();
-		UIManager.Instance.ShowScore ();
-		_bPlay = true;
+		UIManager.Instance.StartButton ();
 	}
 
 	void Update () {

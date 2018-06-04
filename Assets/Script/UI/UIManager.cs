@@ -40,7 +40,6 @@ public class UIManager : Singleton<UIManager> {
 		_tipButton.gameObject.SetActive (false);
 		_score.gameObject.SetActive (false);
 		_gameOverPopup.gameObject.SetActive (false);
-
 	}
 
 	public void  ShowTitle() {
