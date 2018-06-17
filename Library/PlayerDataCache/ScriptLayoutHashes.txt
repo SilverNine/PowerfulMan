@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/designer/Desktop/test2.apk
+C:/Users/designer/Desktop/test3.apk
 SceneListBegin?
 Assets/Scene/Main.unity
 SceneListEnd?
@@ -83,6 +83,7 @@ c63db43c730fa2cbb8ca07de15898cb6 UnityEngine.UI.dll:UnityEngine.UI.Toggle
 f61c0793411f10cf5fbfa1473fef5ef2 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 86d36c43c53541d667100dc90b89cfba UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 1b8c02d0aa82fbf036a2b9b2d713eec3 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.UnityAdsHelper
 27a0fa57d79424b0a3dc33cf05e7ffdd Assembly-CSharp.dll:.MoveObject
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 cf455f7a806648c6ed4c7d3e3f8a0e03 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
@@ -120,7 +121,7 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
-4af37bbd98301df57d5aed8c92110fdb Assembly-CSharp.dll:.Manager
+14b1cf3e74a3498bc5dfaa9d7c7d9231 Assembly-CSharp.dll:.Manager
 aa7e098bbbe5775ca3dbe07c0445ed9c Assembly-CSharp.dll:.Bird
 96f5cd4e917705c1f3471ab3b5afa532 Assembly-CSharp.dll:.NumbersRenderer
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
@@ -157,4 +158,3 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 c8c1b571eed140dcb07b018d64c6952e Assembly-CSharp.dll:.Pipe
 7867fb88d5df79ebcd50a9ac3e5c25de Assembly-CSharp.dll:.MedalRenderer
 27a0fa57d79424b0a3dc33cf05e7ffdd Assembly-CSharp.dll:.Ground
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.UnityAdsHelper
