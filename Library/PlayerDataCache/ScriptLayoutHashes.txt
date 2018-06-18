@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/designer/Desktop/test3.apk
+C:/Users/designer/Desktop/test6.apk
 SceneListBegin?
 Assets/Scene/Main.unity
 SceneListEnd?
