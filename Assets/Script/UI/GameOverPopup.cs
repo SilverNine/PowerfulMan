@@ -33,7 +33,11 @@ public class GameOverPopup : MonoBehaviour {
 		
 	public void OkButton () {
 		PlayerPrefs.SetInt("_lifeCount", PlayerPrefs.GetInt("_lifeCount") + 1);
+		//임시로 광고를 OFF
 		//ShowRewardedAd();
+		//광고를 OFF하면서 아래 로직 추가 
+		gameObject.SetActive (false);
+		Manager.Instance.Replay ();
 	}
  
     public void ShowRewardedAd()
