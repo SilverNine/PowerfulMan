@@ -33,7 +33,7 @@ public class GameOverPopup : MonoBehaviour {
 		
 	public void OkButton () {
 		PlayerPrefs.SetInt("_lifeCount", PlayerPrefs.GetInt("_lifeCount") + 1);
-		ShowRewardedAd();
+		//ShowRewardedAd();
 	}
  
     public void ShowRewardedAd()
