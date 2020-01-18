@@ -33,7 +33,7 @@ public class Manager : Singleton<Manager>
 
     private bool _bCurrentBestScore = false;
 
-    private UnityAdsHelper _unityAdsHelper;
+    //private UnityAdsHelper _unityAdsHelper;
 
     public float Speed
     {
